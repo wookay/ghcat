@@ -1,5 +1,5 @@
 sansu:
-	@ghc sansu.hs -o sansu.exe && ./sansu.exe
+	@ghc Tests.hs -o dist/test && ./dist/test
 
 clean:
-	@rm *.o *.hi *.exe
+	@rm -f dist/test *.hi *.o
