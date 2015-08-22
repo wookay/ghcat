@@ -4,7 +4,6 @@ Build-type:    Simple
 Cabal-version: >= 1.2
 
 Executable Sansu
-  Hs-source-dirs: .
   Main-is:        Sansu.hs
   Build-depends:  base
 
